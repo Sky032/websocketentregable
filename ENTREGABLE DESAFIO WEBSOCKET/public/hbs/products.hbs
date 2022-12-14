@@ -1,0 +1,32 @@
+{{!-- 
+<div class="container">
+    <h2 class="title">Porductos disponibles</h2>
+</div>
+
+<div class="container">
+    
+    {{#if listaProductos}}
+        
+            {{#each productos}}
+
+            <div class="card" style="width: 18rem;">
+                <div class="img-container">
+                    <img src={{imagen}} class="card-img-top" alt="">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">{{titulo}}</h5>
+                    <p class="card-text">${{precio}}</p>
+                </div>
+            </div>
+                
+                
+            {{/each}}
+    {{else}}
+        <div class="container">
+            <h2 class="title">No hay productos disponibles</h2>
+        </div>    
+    {{/if}}
+
+</div>
+ --}}

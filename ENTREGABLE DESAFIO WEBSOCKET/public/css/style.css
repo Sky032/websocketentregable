@@ -1,0 +1,95 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  background-color: rgb(255, 163, 163);
+  /* background-image: url(../img/Pancho-46.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(250, 79, 0);
+  margin: 0;
+}
+
+h1 {
+    color: white
+}
+
+
+.titulo-pagina {
+  color: white;
+  justify-self: center;
+  align-self: flex-start;
+}
+
+.contenedorCrear{
+
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  width: 20%;
+  color: white;
+  font-weight: 600;
+  margin-top: 10%;
+
+}
+
+.ing{
+  margin-top: 5%;
+}
+
+.contenedor-tienda {
+  padding-top: 3%;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 500px;
+  width: 400px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+}
+
+.card-img-top {
+  height: 280px;
+  width: 280px;
+}
+
+.nombre-producto {
+  color: rgb(75, 118, 235);
+  font-weight: 800;
+}
+
+.card-precio {
+  font-weight: 500;
+  color: rgb(69, 69, 171);
+}
+
+.hidden{
+  display: none;
+}
+
+

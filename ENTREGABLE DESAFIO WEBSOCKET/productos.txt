@@ -1,0 +1,19 @@
+[{
+    "titulo": "gato",
+    "precio": "999",
+    "imagen": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg",
+    "id": 1
+  },
+  {
+    "titulo": "imagen",
+    "precio": "999",
+    "imagen": "https://cdn.pixabay.com/photo/2020/05/25/17/21/link-5219567__340.jpg",
+    "id": 2
+  },
+  {
+    "titulo": "Libro Verde",
+    "precio": "10000",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42dHFfrEkp6-qDQC5hHxOceBbPvzHZU8KRrdsgh5z2u_8cXBPGVQbiNFb3STyiKyinjw&usqp=CAU",
+    "id": 3
+  }
+]
